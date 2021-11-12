@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group0">
+        <item
+            android:id="@+id/item_1"
+            android:title="Пункт 1">
+        </item>
+        <item
+            android:id="@+id/item_2"
+            android:title="Пункт 2">
+        </item>
+        <item
+            android:id="@+id/item_3"
+            android:orderInCategory="3"
+            android:title="Пункт 3">
+        </item>
+    </group>
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/item_4"
+            android:orderInCategory="3"
+            android:title="Пункт 4">
+        </item>
+        <item
+            android:id="@+id/item_5"
+            android:orderInCategory="4"
+            android:title="Пункт 5">
+        </item>
+        <item
+            android:id="@+id/item_6"
+            android:orderInCategory="5"
+            android:title="Пункт 6">
+        </item>
+    </group>
+</menu>

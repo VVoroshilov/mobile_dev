@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MD2.1</string>
+    <string name="swap_to_second_activity">Go to Activity Two</string>
+    <string name="second_activity">This is Activity Two</string>
+</resources>

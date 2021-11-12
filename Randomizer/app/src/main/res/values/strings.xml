@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Randomizer</string>
+    <string name="behind">Меньше</string>
+    <string name="ahead">Больше</string>
+    <string name="hit">Победа</string>
+    <string name="input_value">Введите число</string>
+    <string name="play_more">Сыграй ещё</string>
+    <string name="try_to_guess">Угадай число</string>
+    <string name="error">Меня не обманешь. Введи число от 0 до 100</string>
+    <string name="exit">Выход</string>
+</resources>

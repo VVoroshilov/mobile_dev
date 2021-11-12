@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MD1.6</string>
+    <string name="text_color">Text color</string>
+    <string name="text_size">Text size</string>
+</resources>
