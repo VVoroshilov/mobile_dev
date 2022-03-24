@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.toastbtn:
                 Toast toast = Toast.makeText(getApplicationContext(),
-                        "Текстовое сообщение", Toast.LENGTH_SHORT);
+                        "Иоганн Бах - Токката и фуга ре минор BMV 565", Toast.LENGTH_SHORT);
                 toast.show();
                 break;
             default:

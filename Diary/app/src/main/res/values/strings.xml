@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Diary</string>
+    <string name="start">Я загадал число!</string>
+    <string name="bulls">Быков: </string>
+    <string name="cows">Коров: </string>
+    <string name="counter">Ходов сделано: </string>
+</resources>

@@ -15,14 +15,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public static final String WHERE_MY_CAT_ACTION = "com.example.md41_part2.action.CAT";
-    public static final String ALARM_MESSAGE = "Срочно пришлите кота!";
+    public static final String WHERE_MY_CAT_ACTION = "com.example.md41_part2.broadcast.Message";
+    public static final String ALARM_MESSAGE = "но я вам её не отдам!";
 
     public void sendMessage(View view) {
         Intent intent = new Intent();
         ComponentName componentName = new ComponentName(this, MessageReceiver.class);
 
-        intent.putExtra("com.example.md41_part2.broadcast.Message", "Сообщение отправлено");
+        intent.putExtra(WHERE_MY_CAT_ACTION, ALARM_MESSAGE);
         intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
         intent.setComponent(componentName);
         sendBroadcast(intent);

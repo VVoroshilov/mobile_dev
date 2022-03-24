@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MD5.1</string>
+    <string name="start">Start service</string>
+    <string name="stop">Stop service</string>
+    <string name="bind">Bind service</string>
+    <string name="unbind">Unbind service</string>
+
+</resources>
